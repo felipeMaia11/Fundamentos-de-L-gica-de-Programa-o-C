@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  
+    int idade;
+    char nome[50];
+
+    printf("Digite o seu nome: ");
+    scanf(" %49[^\n]", nome);
+
+    printf("Digite a sua idade: ");
+    scanf("%d", &idade);
+
+    printf("\n**************\n");
+    printf("Nome: %s\n", nome);
+    printf("Idade: %d anos\n", idade);
+    printf("\n**************");
+
+    return 0;
+}
