@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+	int vet [10];
+	vet [0] = 5;
+	vet [1] = 5;
+	vet [2] = 5;
+	vet [3] = 5;
+	vet [4] = 5;
+	vet [5] = 5;
+	vet [6] = 5;
+	vet [7] = 5;
+	vet [8] = 5;
+	vet [9] = 5;
+	
+	int num;
+	scanf("%d", &num);
+	vet [2] = num;
+
+	return 0;
+}
